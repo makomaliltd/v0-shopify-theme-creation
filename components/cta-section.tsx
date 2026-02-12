@@ -43,6 +43,7 @@ export function CtaSection() {
                 alt="MakoCare premium gift set packaging"
                 fill
                 className="object-cover"
+                unoptimized
               />
             </div>
           </div>

@@ -23,6 +23,7 @@ export function HeroSection() {
             loaded ? "scale-105" : "scale-100"
           }`}
           priority
+          unoptimized
         />
         <div className="absolute inset-0 bg-foreground/30" />
       </div>

@@ -140,6 +140,7 @@ function ImageShowcase({
           alt={alt}
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-105"
+          unoptimized
         />
         <div className="absolute inset-0 bg-foreground/10 group-hover:bg-foreground/20 transition-colors duration-300" />
         <div className="absolute bottom-0 left-0 right-0 p-8">
