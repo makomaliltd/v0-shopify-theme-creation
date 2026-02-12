@@ -23,12 +23,12 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/#brush-heads" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
+                <Link href="/brush-heads" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
                   Brush Heads
                 </Link>
               </li>
               <li>
-                <Link href="/#features" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
+                <Link href="/gift-sets" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
                   Gift Sets
                 </Link>
               </li>
@@ -41,17 +41,17 @@ export function Footer() {
             </h4>
             <ul className="mt-4 flex flex-col gap-3">
               <li>
-                <Link href="/#" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
+                <Link href="/about" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/#" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
+                <Link href="/contact" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/#" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
+                <Link href="/faq" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
                   FAQ
                 </Link>
               </li>

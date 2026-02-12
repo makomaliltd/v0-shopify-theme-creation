@@ -35,28 +35,34 @@ export function Navbar() {
 
           <div className="hidden md:flex items-center gap-8">
             <Link
-              href="/#features"
+              href="/product"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
-              Features
+              Shop
             </Link>
             <Link
-              href="/#brush-heads"
+              href="/brush-heads"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
               Brush Heads
             </Link>
             <Link
-              href="/#testimonials"
+              href="/gift-sets"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
-              Reviews
+              Gift Sets
             </Link>
             <Link
-              href="/product"
+              href="/about"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
             >
-              Shop
+              About
+            </Link>
+            <Link
+              href="/contact"
+              className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300"
+            >
+              Contact
             </Link>
           </div>
 
@@ -87,32 +93,39 @@ export function Navbar() {
           <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border animate-fade-in">
             <div className="flex flex-col gap-4 px-6 py-6">
               <Link
-                href="/#features"
+                href="/product"
                 onClick={() => setMobileOpen(false)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
-                Features
+                Shop
               </Link>
               <Link
-                href="/#brush-heads"
+                href="/brush-heads"
                 onClick={() => setMobileOpen(false)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
                 Brush Heads
               </Link>
               <Link
-                href="/#testimonials"
+                href="/gift-sets"
                 onClick={() => setMobileOpen(false)}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
               >
-                Reviews
+                Gift Sets
               </Link>
               <Link
-                href="/product"
+                href="/about"
+                onClick={() => setMobileOpen(false)}
+                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
+              >
+                About
+              </Link>
+              <Link
+                href="/contact"
                 onClick={() => setMobileOpen(false)}
                 className="text-sm font-medium text-foreground"
               >
-                Shop Now
+                Contact
               </Link>
             </div>
           </div>
