@@ -39,7 +39,6 @@ export function ProductGallery() {
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-105 animate-fade-in"
           priority
-          unoptimized
         />
       </div>
 
@@ -60,7 +59,6 @@ export function ProductGallery() {
               alt={image.alt}
               fill
               className="object-cover"
-              unoptimized
             />
           </button>
         ))}

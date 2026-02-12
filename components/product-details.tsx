@@ -68,7 +68,6 @@ function DetailRow({
             alt={section.alt}
             fill
             className="object-cover"
-            unoptimized
           />
         </div>
       </div>

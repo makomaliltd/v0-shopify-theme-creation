@@ -72,7 +72,6 @@ export function BrushHeadsSection() {
               alt="Six different brush heads for the MakoCare electric bath brush"
               fill
               className="object-cover"
-              unoptimized
             />
           </div>
         </div>
