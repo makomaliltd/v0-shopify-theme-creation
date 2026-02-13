@@ -55,6 +55,11 @@ export function Footer() {
                   FAQ
                 </Link>
               </li>
+              <li>
+                <Link href="/reviews" className="text-sm text-background/70 hover:text-background transition-colors duration-300">
+                  Customer Reviews
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -86,13 +91,13 @@ export function Footer() {
             2026 MakoCare. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <Link href="/#" className="text-xs text-background/40 hover:text-background/70 transition-colors">
+            <Link href="/privacy" className="text-xs text-background/40 hover:text-background/70 transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/#" className="text-xs text-background/40 hover:text-background/70 transition-colors">
+            <Link href="/terms" className="text-xs text-background/40 hover:text-background/70 transition-colors">
               Terms of Service
             </Link>
-            <Link href="/#" className="text-xs text-background/40 hover:text-background/70 transition-colors">
+            <Link href="/shipping" className="text-xs text-background/40 hover:text-background/70 transition-colors">
               Shipping
             </Link>
           </div>

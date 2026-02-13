@@ -5,6 +5,7 @@ import './globals.css'
 import { CartProvider } from '@/components/cart-provider'
 import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
+import { WhatsAppButton } from '@/components/whatsapp-button'
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
@@ -26,6 +27,7 @@ export default function RootLayout({
           <Navbar />
           <main>{children}</main>
           <Footer />
+          <WhatsAppButton />
         </CartProvider>
       </body>
     </html>
