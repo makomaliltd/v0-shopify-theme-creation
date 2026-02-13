@@ -3,7 +3,7 @@
 import { MessageCircle } from 'lucide-react'
 
 export function WhatsAppButton() {
-  const phoneNumber = '447700000000' // Replace with your UK WhatsApp number
+  const phoneNumber = '7462120727' // Replace with your UK WhatsApp number
   const message = encodeURIComponent('Hi, I need help with my MakoCare order.')
 
   return (
