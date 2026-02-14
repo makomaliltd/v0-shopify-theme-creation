@@ -69,14 +69,14 @@ export function ProductInfo() {
             >
               <div
                 className={`h-10 w-10 rounded-full ${variant.color} transition-all duration-300 ${selectedVariant.id === variant.id
-                    ? "ring-2 ring-foreground ring-offset-2 ring-offset-background scale-110"
-                    : "hover:scale-105"
+                  ? "ring-2 ring-foreground ring-offset-2 ring-offset-background scale-110"
+                  : "hover:scale-105"
                   }`}
               />
               <span
                 className={`text-[10px] font-medium transition-colors ${selectedVariant.id === variant.id
-                    ? "text-foreground"
-                    : "text-muted-foreground"
+                  ? "text-foreground"
+                  : "text-muted-foreground"
                   }`}
               >
                 {variant.name}
@@ -109,8 +109,8 @@ export function ProductInfo() {
       <button
         onClick={handleAddToCart}
         className={`mt-8 w-full rounded-full py-4 text-sm font-medium transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] ${addedToCart
-            ? "bg-foreground/80 text-background"
-            : "bg-foreground text-background hover:bg-foreground/90"
+          ? "bg-foreground/80 text-background"
+          : "bg-foreground text-background hover:bg-foreground/90"
           }`}
       >
         {addedToCart ? "Added to Cart" : "Add to Cart -- $89.99"}
@@ -118,8 +118,8 @@ export function ProductInfo() {
 
       <div className="mt-8 grid grid-cols-3 gap-4">
         {[
-          { icon: Truck, label: "Free Shipping", sub: "Orders $50+" },
-          { icon: RotateCcw, label: "60-Day Returns", sub: "Hassle-free" },
+          { icon: Truck, label: "Free Shipping for all orders ", sub: "Orders $0+" },
+          { icon: RotateCcw, label: "30-Day Returns", sub: "Hassle-free" },
           { icon: Shield, label: "1 Year Warranty", sub: "Full coverage" },
         ].map((perk) => (
           <div key={perk.label} className="flex flex-col items-center gap-1.5 text-center">
