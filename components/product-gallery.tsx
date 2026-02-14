@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const images = [
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-1-16JJXhKJWVt725PFojH51UwDWL9uwa.jpg",
+    src: "https://files.catbox.moe/7kxiva.jpg",
     alt: "MakoCare electric bath brush main product image with accessories",
   },
   {
@@ -48,11 +48,10 @@ export function ProductGallery() {
           <button
             key={i}
             onClick={() => setSelectedIndex(i)}
-            className={`relative aspect-square overflow-hidden rounded-lg transition-all duration-300 ${
-              i === selectedIndex
+            className={`relative aspect-square overflow-hidden rounded-lg transition-all duration-300 ${i === selectedIndex
                 ? "ring-2 ring-foreground ring-offset-2 ring-offset-background"
                 : "opacity-60 hover:opacity-100"
-            }`}
+              }`}
             aria-label={`View image ${i + 1}`}
           >
             <Image
