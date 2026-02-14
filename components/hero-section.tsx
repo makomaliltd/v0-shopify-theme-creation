@@ -16,12 +16,11 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-1-16JJXhKJWVt725PFojH51UwDWL9uwa.jpg"
+          src="https://files.catbox.moe/ynp0ca.jpg"
           alt="MakoCare Electric Bath Brush in use"
           fill
-          className={`object-cover transition-transform duration-[8000ms] ease-out ${
-            loaded ? "scale-105" : "scale-100"
-          }`}
+          className={`object-cover transition-transform duration-[8000ms] ease-out ${loaded ? "scale-105" : "scale-100"
+            }`}
           priority
           unoptimized
         />
@@ -31,33 +30,29 @@ export function HeroSection() {
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-32 lg:px-8">
         <div className="max-w-2xl">
           <p
-            className={`text-xs font-semibold uppercase tracking-[0.3em] text-background/70 transition-all duration-700 ${
-              loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-            }`}
+            className={`text-xs font-semibold uppercase tracking-[0.3em] text-background/70 transition-all duration-700 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+              }`}
           >
             Premium Body Care
           </p>
 
           <h1
-            className={`mt-6 font-serif text-5xl font-bold leading-tight text-background md:text-7xl lg:text-8xl transition-all duration-700 delay-200 ${
-              loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-            }`}
+            className={`mt-6 font-serif text-5xl font-bold leading-tight text-background md:text-7xl lg:text-8xl transition-all duration-700 delay-200 ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+              }`}
           >
             <span className="text-balance">Elevate Your Bathing Ritual</span>
           </h1>
 
           <p
-            className={`mt-6 max-w-lg text-base leading-relaxed text-background/80 md:text-lg transition-all duration-700 delay-[400ms] ${
-              loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-            }`}
+            className={`mt-6 max-w-lg text-base leading-relaxed text-background/80 md:text-lg transition-all duration-700 delay-[400ms] ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+              }`}
           >
             The electric body brush with 90,000 ultra-fine bristles and 6 interchangeable heads. Your at-home spa experience, reimagined.
           </p>
 
           <div
-            className={`mt-10 flex flex-wrap items-center gap-4 transition-all duration-700 delay-[600ms] ${
-              loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-            }`}
+            className={`mt-10 flex flex-wrap items-center gap-4 transition-all duration-700 delay-[600ms] ${loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+              }`}
           >
             <Link
               href="/product"

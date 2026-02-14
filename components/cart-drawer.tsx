@@ -107,7 +107,7 @@ export function CartDrawer() {
                 Checkout
               </button>
               <p className="text-center text-xs text-muted-foreground mt-3">
-                Shipping calculated at checkout
+                all orders Shipping is free
               </p>
             </div>
           )}
