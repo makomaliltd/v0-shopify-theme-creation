@@ -1,6 +1,7 @@
 import { ProductGallery } from "@/components/product-gallery"
 import { ProductInfo } from "@/components/product-info"
 import { ProductDetails } from "@/components/product-details"
+import { HowToUseSection } from "@/components/how-to-use-section"
 
 export const metadata = {
   title: "MakoCare Electric Bath Brush | Premium Body Care",
@@ -18,6 +19,7 @@ export default function ProductPage() {
         </div>
       </section>
       <ProductDetails />
+      <HowToUseSection />
     </div>
   )
 }
