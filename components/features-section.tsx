@@ -50,9 +50,8 @@ function FeatureCard({
   return (
     <div
       ref={ref}
-      className={`group rounded-2xl bg-card p-8 transition-all duration-700 hover:shadow-lg ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      }`}
+      className={`group rounded-2xl bg-card p-8 transition-all duration-700 hover:shadow-lg ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+        }`}
       style={{ transitionDelay: `${index * 100}ms` }}
     >
       <div className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-all duration-300 group-hover:scale-110 group-hover:bg-accent">
@@ -74,9 +73,8 @@ export function FeaturesSection() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div
           ref={titleRef}
-          className={`max-w-2xl mx-auto text-center transition-all duration-700 ${
-            titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`max-w-2xl mx-auto text-center transition-all duration-700 ${titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground">
             Why MakoCare
@@ -97,13 +95,13 @@ export function FeaturesSection() {
 
         <div className="mt-20 grid grid-cols-1 gap-6 lg:grid-cols-2">
           <ImageShowcase
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-3-ceO53MTzmC43sRkiKICFrr7ZRycnev.jpg"
+            src="https://files.catbox.moe/kif4ih.jpg"
             alt="Close-up of MakoCare brush head showing 90,000 ultra-fine bristles"
             label="90,000 Bristles"
             description="High-density gentle deep cleaning"
           />
           <ImageShowcase
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-4-NuEA9QWwChfbWh5SrwwuNLIL2JfgZg.jpg"
+            src="https://files.catbox.moe/t0ba33.jpg"
             alt="MakoCare brush motor power detail"
             label="Powerful Motor"
             description="Consistent rotation for an even cleanse"
@@ -130,9 +128,8 @@ function ImageShowcase({
   return (
     <div
       ref={ref}
-      className={`group relative overflow-hidden rounded-2xl transition-all duration-700 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      }`}
+      className={`group relative overflow-hidden rounded-2xl transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+        }`}
     >
       <div className="aspect-square relative">
         <Image
