@@ -15,7 +15,7 @@ const detailSections = [
   },
   {
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E8%AF%A6%E6%83%85-25-cMfDWdsH2TRlxFTBNaEtYZtDAWTNtn.jpg",
+      "https://files.catbox.moe/dpfzdz.jpg",
     alt: "Smart pressure sensing technology in action",
     title: "Intelligent Protection",
     description:
@@ -24,7 +24,7 @@ const detailSections = [
   },
   {
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E8%AF%A6%E6%83%85-23-9JdtxrXbaQUFd9nNer5g2cSAtdIj87.jpg",
+      "https://files.catbox.moe/zrp692.jpg",
     alt: "Back coverage demonstration showing 9-point positioning",
     title: "Complete Back Coverage",
     description:
@@ -57,9 +57,8 @@ function DetailRow({
   return (
     <div
       ref={ref}
-      className={`grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16 transition-all duration-700 ${
-        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-      }`}
+      className={`grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16 transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+        }`}
     >
       <div className={`${section.reverse ? "lg:order-2" : ""}`}>
         <div className="relative aspect-[4/5] overflow-hidden rounded-2xl">
