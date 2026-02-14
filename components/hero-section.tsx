@@ -16,7 +16,7 @@ export function HeroSection() {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://files.catbox.moe/9fa3ns.jpg"
+          src="https://files.catbox.moe/ynp0ca.jpg"
           alt="MakoCare Electric Bath Brush in use"
           fill
           className={`object-cover transition-transform duration-[8000ms] ease-out ${loaded ? "scale-105" : "scale-100"
