@@ -9,15 +9,15 @@ const images = [
     alt: "MakoCare electric bath brush main product image with accessories",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-2-VOGRPhR6seW9lpy14LX4cdfcSa052M.jpg",
+    src: "https://files.catbox.moe/ryrci9.jpg",
     alt: "MakoCare brush with dual handle design and soap bubbles",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-3-ceO53MTzmC43sRkiKICFrr7ZRycnev.jpg",
+    src: "https://files.catbox.moe/kif4ih.jpg",
     alt: "Close-up of 90,000 ultra-fine bristles for gentle deep cleaning",
   },
   {
-    src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-4-NuEA9QWwChfbWh5SrwwuNLIL2JfgZg.jpg",
+    src: "https://files.catbox.moe/t0ba33.jpg",
     alt: "MakoCare powerful motor detail with swirl pattern",
   },
   {
@@ -49,8 +49,8 @@ export function ProductGallery() {
             key={i}
             onClick={() => setSelectedIndex(i)}
             className={`relative aspect-square overflow-hidden rounded-lg transition-all duration-300 ${i === selectedIndex
-                ? "ring-2 ring-foreground ring-offset-2 ring-offset-background"
-                : "opacity-60 hover:opacity-100"
+              ? "ring-2 ring-foreground ring-offset-2 ring-offset-background"
+              : "opacity-60 hover:opacity-100"
               }`}
             aria-label={`View image ${i + 1}`}
           >
