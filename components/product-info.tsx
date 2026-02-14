@@ -21,7 +21,7 @@ export function ProductInfo() {
       name: "MakoCare Electric Bath Brush",
       price: 89.99,
       image:
-        "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/%E4%B8%BB%E5%9B%BE-5-IC3v8itKrpHqzuVluKYr8zQ9xvOgwn.png",
+        "https://files.catbox.moe/7kxiva.jpg",
       variant: selectedVariant.name,
     })
     setAddedToCart(true)
@@ -68,18 +68,16 @@ export function ProductInfo() {
               aria-label={`Select ${variant.name} color`}
             >
               <div
-                className={`h-10 w-10 rounded-full ${variant.color} transition-all duration-300 ${
-                  selectedVariant.id === variant.id
+                className={`h-10 w-10 rounded-full ${variant.color} transition-all duration-300 ${selectedVariant.id === variant.id
                     ? "ring-2 ring-foreground ring-offset-2 ring-offset-background scale-110"
                     : "hover:scale-105"
-                }`}
+                  }`}
               />
               <span
-                className={`text-[10px] font-medium transition-colors ${
-                  selectedVariant.id === variant.id
+                className={`text-[10px] font-medium transition-colors ${selectedVariant.id === variant.id
                     ? "text-foreground"
                     : "text-muted-foreground"
-                }`}
+                  }`}
               >
                 {variant.name}
               </span>
@@ -110,11 +108,10 @@ export function ProductInfo() {
 
       <button
         onClick={handleAddToCart}
-        className={`mt-8 w-full rounded-full py-4 text-sm font-medium transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] ${
-          addedToCart
+        className={`mt-8 w-full rounded-full py-4 text-sm font-medium transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] ${addedToCart
             ? "bg-foreground/80 text-background"
             : "bg-foreground text-background hover:bg-foreground/90"
-        }`}
+          }`}
       >
         {addedToCart ? "Added to Cart" : "Add to Cart -- $89.99"}
       </button>
