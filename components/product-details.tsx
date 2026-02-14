@@ -24,7 +24,7 @@ const detailSections = [
   },
   {
     image:
-      "https://files.catbox.moe/zrp692.jpg",
+      "https://files.catbox.moe/t7lew1.jpg",
     alt: "Back coverage demonstration showing 9-point positioning",
     title: "Complete Back Coverage",
     description:
